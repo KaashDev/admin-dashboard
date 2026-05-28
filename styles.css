@@ -1,0 +1,44 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar{
+    background-color: lightblue;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4px;
+}
+
+.topbar{
+    background-color: purple;
+    grid-column: span 2;
+}
+
+.projects{
+    background-color:darkgreen;
+    grid-row: span 2;
+}
+
+.announcements{
+    background-color: lightcoral;
+}
+
+.trending{
+    background-color: yellow;
+    grid-column: 2/3;
+}
