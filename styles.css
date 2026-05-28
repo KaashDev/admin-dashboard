@@ -25,7 +25,7 @@
 }
 
 .logo{
-    margin: 15% 0 0 10%;
+    margin: 40px 40px 20px 40px;   
 }
 
 .menu{
@@ -87,7 +87,7 @@
     width: 150px;
     border-radius: 100px;
     height: 50px;
-    background-color: orangered;
+    background-color: #0E1113;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,10 +99,10 @@
 }
 
 .create{
+    background-color: orangered;
     width: 150px;
     border-radius: 100px;
     height: 50px;
-    background-color: rgb(114, 114, 114);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,7 +140,7 @@
     height: 200px;
     width: 250px;
     border-radius: 10px;
-    border-left: 6px solid white;
+    border-left: 2px solid white;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -167,7 +167,7 @@
 
 .card-actions button{
     height: 40px;
-    border-radius: 8px;
+    border-radius: 100px;
     font-size: 14px;
 }
 
@@ -176,15 +176,16 @@
     background-color: #0E1113;
     color: white;
     font-weight: bold;
-    border: 1px solid white;
-    margin-right: 10px;
+    border: none;
+    margin-right: 5px;
 }
 
 .view-project{
     width: 120px;
-    background-color: white;
+    background-color: orangered;
     font-weight: bold;
-    border: 1px solid white;
+    border: 1px solid orangered;
+    color: white;
 }
 
 .announcements{
