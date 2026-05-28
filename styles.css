@@ -157,7 +157,7 @@
     margin-left: 20px;
     margin-top:10px;
     font-size: 14px;
-    opacity: 80%;
+    opacity: 70%;
 }
 
 .card-actions{
@@ -209,12 +209,24 @@
 }
 
 .announcement-card{
-    border: 1px solid white;
+    border: none;
     height: 100px;
     width: 300px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column ;
+    gap: 10px;
 }
 
+.announcement-card-title{
+    font-size: 16px;
+}
+.announcement-card-description{
+    font-size: 13px;
+    font-weight: 100;
+    opacity: 70%;
+    margin-left: 10px;
+}
 .trending{
     background-color:#0E1113;
     grid-row: span 1;
@@ -229,7 +241,7 @@
     margin-left: 20px;
 }
 .trending-cards{
-    margin-top: 20px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
@@ -237,10 +249,27 @@
 }
 
 .trending-card{
-    border: 1px solid white;
+    border: none;
     height: 50px;
     width: 300px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.trending-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: salmon;
+    margin-right: 20px;
+}
+.trending-user-name{
+    font-size: 16px;
+}
+.trending-user-project{
+    font-size: 13px;
+    font-weight: 100;
+    opacity: 70%;
 }
 
 button:hover{
